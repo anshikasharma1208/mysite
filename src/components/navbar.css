@@ -1,0 +1,92 @@
+/* src/components/Navbar.css */
+
+/* General styles */
+.navbar {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  top:0%;
+  height: 150px; /* Adjust the height as needed */
+  background-color: transparent; /* Ensure the background image is visible */
+  display: flex;
+  align-items: right;
+  justify-content: flex-end; /* Align links to the right */
+  overflow: hidden;
+  z-index: 100; /* Ensure it is above other elements */
+  background-image: url('./image2.jpeg'); /* Set your image path here */
+  background-size: cover; /* Ensure the image covers the navbar area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+    
+  
+  .navbar-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:50%;
+    right:10px;
+    justify-content: flex-end;
+    gap: 50px;
+  }
+  
+  .navbar-links li {
+    list-style-type: none;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    border-color: rgb(251, 249, 249);
+    font-weight: bold;
+    background-color: rgb(99, 36, 77);
+    padding: 10px 20px;
+    margin:10px;
+    top: auto;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .top-image-container {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .top-image {
+    width: 100%; 
+    max-width: 100; 
+    height: auto;
+    border-radius: 25px;
+    resize: 'stretch';
+    margin-top:0;
+    padding:0;
+    margin-bottom: auto; 
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    margin: 0 10 px;
+  }
+  
+  

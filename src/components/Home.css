@@ -1,0 +1,61 @@
+.home {
+  text-align: center;
+  margin-top: 60px; /* Adjust if necessary based on navbar height */
+}
+.welcome-box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px 20px;
+    width: 80%;
+    max-width: 800px;
+    margin: auto; /* Adjust margin as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-box h1{
+    margin: 0;
+    font-size:350%;
+    font-weight: bold;
+    color: #6b1c46; /* Change the color to whatever you prefer. Example: Deep Pink */
+  }
+  .welcome-box h2{
+    margin: 0;
+    font-size:150%;
+    font:italic;
+    color: #c18fac; 
+  }
+  .welcome-box h3{
+    margin: 0;
+    font-size:250%;
+    font-weight: bold;
+    color: #6b1c46;
+  }
+  .counter {
+    margin-top: 40px;
+
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .button-container button {
+    margin: 30px 40px;
+    padding: 50px 50px;
+    justify-content: space-between;
+    display: grid;
+    font-size: 16px;
+    top:"20vh";
+    position: relative;
+    cursor: pointer;
+    gap:100px;
+    border-radius: 5px;
+    border-color: #6b1c46;
+  }
+
+  .button-container button:hover {
+    background-color: #c1a1b6;
+  }
+
+
+

@@ -1,0 +1,69 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(236, 187, 215);
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(231, 189, 213);
+  height: 100vh;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 1px;
+}
+
+
+
+.button-overlay {
+  position: absolute;
+  top: 150px; /* Adjust to position the buttons */
+  left: 70%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 50px; /* Space between buttons */
+}
+
+
+@media (max-width: 768px) {
+  .button-overlay {
+    top: 40px; 
+    flex-direction: row; /* Stack buttons vertically on smaller screens */
+  }
+  .nav-button {
+    margin: 10px 0; /* Add vertical margin between buttons */
+    width: 50%; /* Adjust width of buttons for smaller screens */
+  }
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
